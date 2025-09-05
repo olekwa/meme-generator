@@ -170,3 +170,20 @@ main {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+
+@media (max-width: 768px) {
+  .meme span
+ {
+    font-size: 1rem; 
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 480px) {
+  .meme span {
+    font-size: 0.8rem;  
+    max-width: 80%;
+    padding: 0 3px;
+  }
+}
